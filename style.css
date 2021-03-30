@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #eef0f1;
+  font-family: "Open sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+img {
+  display: block;
+  width: 80%;
+}
+
+.header-bg {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(0, 19, 54);
+}
+
+.container {
+  /*background-color: brown;*/
+  align-self: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 15%;
+}
+
+.cards {
+  /*background-color: cadetblue;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.card-profile {
+  width: 100%;
+  height: 220px;
+  background-color: #fff;
+  border: 1px solid #d6d8da;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card-profile img {
+  width: 150px;
+  background-color: rgb(0, 19, 54);
+  border-radius: 50%;
+  border: 10px solid rgb(0, 19, 54);
+  position: absolute;
+  top: -40%;
+}
+
+.user-info {
+  text-align-last: center;
+  width: 100%;
+}
+
+.user-info h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+.user-info .description {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.card-profile .social-media {
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.cards-group {
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 35vh;
+}
+
+.badges {
+  background-color: #fff;
+  border: 1px solid #d6d8da;
+  border-radius: 8px;
+  flex: 0 1 25%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+.badges h3 {
+  padding: 0.5rem;
+  font-weight: 700;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.badges img {
+  width: 50%;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+.post {
+  background-color: #fff;
+  border: 1px solid #d6d8da;
+  border-radius: 8px;
+  flex: 1 1 75%;
+}
+
+.post .user-profile {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.post .user-profile img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.post .user-profile .user-profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  padding: 1px;
+  text-align: left;
+}
+
+span.title-perfil {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+span.date {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+div.post-content {
+  padding: 1rem;
+}
+
+div.post-content h1 {
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+div.post-content .hashtags {
+  text-transform: lowercase;
+  font-size: 1rem;
+  color: #c2c2c2;
+}
+
+div.post-content .time-read {
+  color: #c2c2c2;
+  position: absolute;
+  right: 3%;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+section.projects {
+  width: 100%;
+  min-height: 60vh;
+  background-color: #fff;
+  border: 1px solid #d6d8da;
+  border-radius: 8px;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section.projects h1 {
+  width: 100%;
+  height: 60px;
+  padding: 0.5rem;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+  width: 30%;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #d6d8da;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  margin-right: 1%;
+}
+
+.project-card img {
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  color: #374151;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.project-card p {
+  color: #374151;
+  font-weight: 400;
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-card a {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000;
+  text-decoration: underline;
+}
