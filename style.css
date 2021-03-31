@@ -141,6 +141,7 @@ img {
   border: 1px solid #d6d8da;
   border-radius: 8px;
   flex: 1 1 75%;
+  position: relative;
 }
 
 .post .user-profile {
@@ -182,22 +183,25 @@ div.post-content {
 
 div.post-content h1 {
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   line-height: 2rem;
-  margin-bottom: 2rem;
 }
 
 div.post-content .hashtags {
   text-transform: lowercase;
   font-size: 1rem;
   color: #c2c2c2;
+  position: absolute;
+  left: 3%;
+  bottom: 15%;
 }
 
 div.post-content .time-read {
   color: #c2c2c2;
   position: absolute;
   right: 3%;
+  bottom: 15%;
   font-weight: 300;
   text-transform: lowercase;
 }
@@ -301,6 +305,7 @@ section.projects h1 {
     text-align: left;
     margin-left: 0.5rem;
   }
+
   .user-info h1 {
     font-weight: 700;
     font-size: 2rem;
