@@ -267,7 +267,7 @@ section.projects h1 {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 1000px) {
   .header-bg {
     height: 80px;
   }
